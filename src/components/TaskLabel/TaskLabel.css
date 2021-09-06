@@ -1,0 +1,19 @@
+li {
+    background-color: #EDECEC;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 36.8rem;
+    height: 4rem;
+    padding: 0.8rem;
+    padding-right: 0;
+    margin: 1.6rem;
+    margin-right: 0;
+    list-style: none;
+    border-radius: 2px;
+    font-size: 1.6rem;
+}
+
+.button {
+    transition: all 0.2s ease;
+}
