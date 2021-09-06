@@ -1,14 +1,29 @@
 button {
     padding: 0.8rem;
     border: none;
-    border-radius: 10%;
+    border-radius: 2px;
     color: white;
 }
 
-.add{ 
+.add{
+    display: flex;
+    justify-content: center;
     background-color: #904ae6;
+    width: 4rem;
+    height: 4rem;
 }
 
 .delete {
+    display: flex;
+    justify-content: center;
     background-color: #e64d3f;
+    width: 4rem;
+    height: 4rem;
+}
+
+.clear {
+    display: flex;
+    justify-content: center;
+    background-color: #904ae6;
+    font-size: 1.6rem;
 }
