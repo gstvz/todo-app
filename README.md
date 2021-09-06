@@ -2,9 +2,10 @@
 
 ## Requisitos.
 
-- [ ] Criar componente Button, com variantes para adicionar, excluir e remover todas as tarefas;
-- [ ] Criar componente TaskLabel, que exibe as tarefas criadas;
-- [ ] Criar componente Input, que recebe o nome da tarefa a ser criada;
+- [ X ] Criar componente Button, com variantes add, trash e Clear All;
+- [ X ] Criar componente TaskInput, que recebe o nome da tarefa a ser criada;
+- [ ] Criar componente TaskLabel, que contém cada tarefa;
+- [ ] Criar componente TodoList, que exibe as tarefas;
 - [ ] Criar componente Container, que engloba as tarefas;
 - [ ] Estilizar a div principal do App;
 
