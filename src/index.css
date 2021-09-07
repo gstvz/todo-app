@@ -12,6 +12,7 @@ html {
 
 body {
   min-block-size: 100vh;
+  background: linear-gradient(180deg, rgba(104, 234, 204, 0.4) 0%, #497BE8 100%);
 }
 
 img {
