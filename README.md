@@ -1,13 +1,13 @@
 # Todo-App
 
-## Requisitos.
+## Requisitos e Tasks.
 
 - [X] Criar componente Button, com variantes add, trash e Clear All;
 - [X] Criar componente TaskInput, que recebe o nome da tarefa a ser criada;
 - [X] Criar componente TaskLabel, que contém cada tarefa;
-- [ ] Criar componente TodoList, que lista as tarefas;
-- [ ] Criar componente Container, que engloba as tarefas;
-- [ ] Estilizar a div principal do App;
+- [X] Criar componente TodoList, que lista as tarefas;
+- [ ] Criar componente Container, que engloba o App;
+- [ ] Refatorar TaskInput para já conter o botão de adicionar;
 
 # Getting Started with Create React App
 
