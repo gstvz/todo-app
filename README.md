@@ -6,9 +6,10 @@
 - [X] Criar componente TaskInput, que recebe o nome da tarefa a ser criada;
 - [X] Criar componente TaskLabel, que contém cada tarefa;
 - [X] Criar componente TodoList, que lista as tarefas;
-- [ ] Criar componente Footer;
-- [ ] Criar componente Container, que engloba o App;
+- [X] Criar componente Footer;
+- [X] Criar componente Container, que engloba o App;
 - [X] Refatorar TaskInput para já conter o botão de adicionar;
+- [ ] Refatorar estilizações dos componentes para se posicionarem corretamente;
 
 # Getting Started with Create React App
 
