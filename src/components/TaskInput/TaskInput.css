@@ -1,6 +1,7 @@
 input {
     width: 31.2rem;
     height: 4rem;
+    padding: 0.8rem;
     border: 1px solid #EDECEC;
     border-radius: 2px;
     font-size: 1.6rem;
@@ -9,5 +10,6 @@ input {
 .wrapper {
     display: flex;
     justify-content: space-between;
+    flex: 1;
     width: 36.8rem;
 }
