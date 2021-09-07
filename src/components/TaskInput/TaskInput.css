@@ -5,3 +5,9 @@ input {
     border-radius: 2px;
     font-size: 1.6rem;
 }
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 36.8rem;
+}
