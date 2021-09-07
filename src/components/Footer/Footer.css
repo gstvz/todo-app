@@ -1,0 +1,10 @@
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 36.8rem;
+}
+
+span {
+    font-size: 1.6rem;
+}
