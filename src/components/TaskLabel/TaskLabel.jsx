@@ -24,7 +24,7 @@ function TaskLabel() {
         <li
             onMouseEnter={handleHovering}
             onMouseLeave={handleNotHovering}
-        >Create a design on Figma {isHovering && <DeleteButton />}</li>
+        >Task {isHovering && <DeleteButton />}</li>
     )
 }
 
