@@ -9,7 +9,13 @@
 - [X] Criar componente Footer;
 - [X] Criar componente Container, que engloba o App;
 - [X] Refatorar TaskInput para já conter o botão de adicionar;
-- [ ] Refatorar estilizações dos componentes para se posicionarem corretamente;
+- [X] Refatorar estilizações dos componentes para se posicionarem corretamente;
+- [ ] Implementar lógica: o botão de adicionar deve inserir a task no array quando clicado;
+- [ ] Implementar lógica: o botão de excluir deve remover a task do array quando clicado;
+- [ ] Implementar lógica: o botão de remover todas deve remover todas as tasks do array quando clicado;
+- [ ] Implementar lógica: o componente TaskLabel deve receber como prop o texto da task;
+- [ ] Implementar lógica: o componente TaskList deve receber o array de tasks e renderizar TaskLabels para cada task;
+- [ ] Implementar lógica: o span do Footer deve receber a quantidade de elementos do array de tasks para exibir a mensagem dinamicamente;
 
 # Getting Started with Create React App
 
