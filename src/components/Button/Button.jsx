@@ -11,7 +11,8 @@ function Button(props) {
     
     return (
         <button 
-            className={props.className}            
+            className={props.className}
+            onClick={props.onClick}          
         >
             {content}
         </button>
