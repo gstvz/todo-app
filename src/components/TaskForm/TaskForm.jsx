@@ -1,17 +1,17 @@
-import './TaskInput.css';
+import './TaskForm.css';
 import Button from '../Button/Button';
 
-function TaskInput() {
+function TaskForm() {
 
     return (
-        <div className="wrapper">
+        <form className="wrapper" onSubmit={e => e.preventDefault()}>
             <input
                 placeholder="Add your new todo"
             >
             </input>
             <Button className="add" content="add" />
-        </div>
+        </form>
     )
 }
 
-export default TaskInput;
+export default TaskForm;
