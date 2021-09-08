@@ -13,7 +13,7 @@ function Container() {
             <h1>Todo App</h1>
             <TaskForm tasks={tasks} setTasks={setTasks} />
             <TaskList tasks={tasks} />
-            <Footer tasks={tasks} />
+            <Footer tasks={tasks} setTasks={setTasks} />
         </div>
     )
 }
