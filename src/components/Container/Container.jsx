@@ -1,13 +1,13 @@
 import './Container.css';
 import Footer from '../Footer/Footer';
-import TaskInput from '../TaskInput/TaskInput';
+import TaskForm from '../TaskForm/TaskForm';
 import TaskList from '../TaskList/TaskList';
 
 function Container() {
     return (
         <div className="container">
             <h1>Todo App</h1>
-            <TaskInput />
+            <TaskForm />
             <TaskList />
             <Footer />
         </div>

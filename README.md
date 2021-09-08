@@ -10,7 +10,11 @@
 - [X] Criar componente Container, que engloba o App;
 - [X] Refatorar: TaskInput para já conter o botão de adicionar;
 - [X] Refatorar: estilizações dos componentes para se posicionarem corretamente;
-- [ ] Refatorar: TaskInput para TaskForm;
+- [X] Refatorar: TaskInput para TaskForm;
+- [ ] Lógica: Container contém o array Tasks e passa ele como props para os componentes;
+- [ ] Lógica: TaskForm cria uma nova Task quando submetido;
+- [ ] Lógica: TaskList renderiza TaskLabel para cada Task no array Tasks;
+- [ ] Lógica: Footer exibe a lenght do array Tasks;
 
 # Getting Started with Create React App
 
