@@ -1,7 +1,7 @@
 import './TaskForm.css';
 import Button from '../Button/Button';
 
-function TaskForm() {
+function TaskForm({ tasks, setTasks }) {
 
     return (
         <form className="wrapper" onSubmit={e => e.preventDefault()}>

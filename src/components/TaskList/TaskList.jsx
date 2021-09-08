@@ -1,13 +1,10 @@
 import './TaskList.css';
 import TaskLabel from '../TaskLabel/TaskLabel';
 
-function TaskList() {
+function TaskList({ tasks }) {
 
     return (
         <ul className="labelWrapper">
-            <TaskLabel />            
-            <TaskLabel /> 
-            <TaskLabel />
         </ul>
     )
 }
