@@ -5,6 +5,9 @@ function TaskList({ tasks }) {
 
     return (
         <ul className="labelWrapper">
+            {tasks.map(task => {
+                return <TaskLabel>{task}</TaskLabel>
+            })}
         </ul>
     )
 }
