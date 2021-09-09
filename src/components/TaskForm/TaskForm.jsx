@@ -9,7 +9,10 @@ function TaskForm({ tasks, setTasks }) {
     function handleSubmit(e) {
         e.preventDefault(); 
         
-        const task = input;
+        const task = {
+            id: Math.floor(Math.random() * 100) + 1,
+            text: input
+        };
         const newTasks = [...tasks, task];
         console.log(newTasks);
 
