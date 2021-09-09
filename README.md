@@ -15,7 +15,7 @@
 - [X] Feature: TaskForm cria uma nova Task quando submetido;
 - [X] Feature: TaskList renderiza TaskLabel para cada Task no array Tasks;
 - [X] Feature: Footer exibe a lenght do array Tasks;
-- [ ] Feature: Botão excluir remove a task do array;
+- [X] Feature: Botão excluir remove a task do array;
 - [X] Feature: Botão Clear All remove todas as tasks do array;
 - [ ] Fix: implementar scrolling na TaskList para não vazar do Container quando tiver muitas tasks;
 
