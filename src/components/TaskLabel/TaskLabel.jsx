@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './TaskLabel.css';
 import Button from '../Button/Button';
 
-function TaskLabel({ children }) {
+function TaskLabel({ handleDelete, children }) {
 
     const [isHovering, setIsHovering] = useState(false);
 
@@ -12,19 +12,13 @@ function TaskLabel({ children }) {
 
     const handleNotHovering = () => {
         setIsHovering(false);
-    }
-
-    const DeleteButton = () => {
-        return (
-            <Button className="delete" content="trash" />
-        )
-    }
+    }   
 
     return (
         <li
             onMouseEnter={handleHovering}
             onMouseLeave={handleNotHovering}
-        >{children} {isHovering && <DeleteButton />}</li>
+        >{children} {isHovering && <Button className="delete" content="trash" onClick={handleDelete} />}</li>
     )
 }
 

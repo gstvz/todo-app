@@ -12,7 +12,7 @@ function Container() {
         <div className="container">
             <h1>Todo App</h1>
             <TaskForm tasks={tasks} setTasks={setTasks} />
-            <TaskList tasks={tasks} />
+            <TaskList tasks={tasks} setTasks={setTasks} />
             <Footer tasks={tasks} setTasks={setTasks} />
         </div>
     )
