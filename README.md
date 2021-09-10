@@ -1,6 +1,42 @@
 # Todo-App
+This is a simple Task Manager Application created with React.
 
-## Requisitos e Tasks.
+You can create Tasks, remove them individually or remove them all, and a text on the Footer informs how many Tasks you have pending.
+
+![Todo_App](https://user-images.githubusercontent.com/79481036/132906104-7519aa18-97b8-4e3b-9af8-9cd34fdf6a93.gif)
+
+It was based on the design from this tutorial:
+[Coding Nepal](https://www.codingnepalweb.com/todo-list-app-javascript/).
+
+I recreated the design on Figma:
+[Figma](https://www.figma.com/file/2JJk3SPFpG7byInlLjAZDk/Todo-App?node-id=0%3A1).
+
+# 🎮 Getting started
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+### 🧬 Clone this repo.
+```bash
+git clone https://github.com/gstvz/todo-app.git
+```
+
+### 📂 Move yourself to the appropriate repository.
+```bash
+cd todo-app
+```
+
+### 🎉 Install the package dependencies.
+```bash
+yarn install
+```
+
+# 🔥 Usage.
+```bash
+yarn start
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+# Project Tasks.
 
 - [X] Feature: Criar componente Button, com variantes add, trash e Clear All;
 - [X] Feature: Criar componente TaskInput, que recebe o nome da tarefa a ser criada;
@@ -22,17 +58,3 @@
 - [ ] Feature: validar o TaskForm para exigir algum texto no TaskInput para enviar;
 - [ ] Feature: focar o cursor no TaskInput;
 - [ ] Fix: mudar o cursor dos botões para pointer;
-
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
