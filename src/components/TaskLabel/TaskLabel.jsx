@@ -18,7 +18,10 @@ function TaskLabel({ handleDelete, children }) {
         <li
             onMouseEnter={handleHovering}
             onMouseLeave={handleNotHovering}
-        >{children} {isHovering && <Button className="delete" content="trash" onClick={handleDelete} />}</li>
+        >
+            {children}
+            {isHovering && <Button className="delete" content="trash" onClick={handleDelete} />}
+        </li>        
     )
 }
 
