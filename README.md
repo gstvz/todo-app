@@ -17,7 +17,11 @@
 - [X] Feature: Footer exibe a lenght do array Tasks;
 - [X] Feature: Botão excluir remove a task do array;
 - [X] Feature: Botão Clear All remove todas as tasks do array;
-- [ ] Fix: implementar scrolling na TaskList para não vazar do Container quando tiver muitas tasks;
+- [X] Fix: implementar scrolling na TaskList para não vazar do Container quando tiver muitas tasks;
+- [ ] Fix: fazer o TaskLabel ajustar ao tamanho do texto sem quebrar por causa do DeleteButton;
+- [ ] Feature: validar o TaskForm para exigir algum texto no TaskInput para enviar;
+- [ ] Feature: focar o cursor no TaskInput;
+- [ ] Fix: mudar o cursor dos botões para pointer;
 
 # Getting Started with Create React App
 
