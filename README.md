@@ -1,5 +1,5 @@
 # Todo-App
-This is a simple Task Manager Application created with React.
+This is a simple To Do Application created with React.
 
 You can create Tasks, remove them individually or remove them all, and a text on the Footer informs how many Tasks you have pending.
 
